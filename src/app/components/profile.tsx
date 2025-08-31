@@ -35,6 +35,10 @@ Backend PHP Developer | Front End Developer
                         <span className="nav-indicator mr-4 h-px w-8 bg-slate-100 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
                         <span className="nav-text text-xs font-bold uppercase tracking-widest text-white-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Education</span>
                       </Link>
+                      <Link className="group flex items-center py-3" href="/resume.pdf" target="_blank">
+                        <span className="nav-indicator mr-4 h-px w-8 bg-slate-100 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
+                        <span className="nav-text text-xs font-bold uppercase tracking-widest text-white-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Resume</span>
+                      </Link>
                       </li>
                      
                     </ul>
