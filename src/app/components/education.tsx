@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from 'next/link';
+
 
 export default function Education() {
   return (
@@ -58,7 +58,7 @@ export default function Education() {
                     <h3 className="-mt-1">
                          <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                             <span>University of Nueva Caceres &nbsp;</span><br></br>
-                            <span>Bachelor's in Computer Science </span>
+                            <span>{`Bachelor's in Computer Science `}</span>
                         
                     </h3>
                 </div>

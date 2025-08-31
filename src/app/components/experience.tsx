@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Link from 'next/link';
 
 export default function Experience() {
   return (
@@ -27,9 +25,9 @@ export default function Experience() {
                             </h3>
 
                             <p className="mt-2 text-sm leading-normal">
-                            Worked as a Freelance Web Developer for private clients, maintaining WordPress websites using OrionWP and Elementor Pro, and refactoring codebases with Laravel to improve performance and maintainability.
+                            {`Worked as a Freelance Web Developer for private clients, maintaining WordPress websites using OrionWP and Elementor Pro, and refactoring codebases with Laravel to improve performance and maintainability.
                             Transitioned from freelance development to focus on managing a personal business venture.
-                            But i'm ready to get back on track.
+                            But i'm ready to get back on track.`}
                             </p>
                             <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
                               <li className="mr-1.5 mt-2">
