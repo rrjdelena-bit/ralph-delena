@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Header from "./components/head";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,10 +26,7 @@ export default function RootLayout({
   return (
   
     <html lang="en">
-      <head>
-        <link rel="preconnect" href="https://rsms.me/" />
-        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
-      </head>
+      
       <body
         className={`${geistSans.variable} ${geistMono.variable} leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900`}
       >

@@ -21,7 +21,7 @@ export default function Education() {
                         data-nimg="1"
                         className="object-cover z-10 col-span-2 rounded transition group-hover:border-slate-200/30 sm:col-span-2"
                         style={{ color: "transparent" }}
-                        src="/images/PEP.png"
+                        src="/images/pep.png"
                     />
 
                 <div className="z-10 col-span-6">
