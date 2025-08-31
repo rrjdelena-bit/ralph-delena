@@ -19,19 +19,19 @@ Backend PHP Developer | Front End Developer
                   <nav className="nav hidden lg:block" aria-label="In-page jump links">
                     <ul className="mt-16 w-max">
                       <li>
-                      <Link className="group flex items-center py-3 active" href="#about">
+                      <Link className="group flex items-center py-3 active" href="#about" scroll={false}>
                         <span className="nav-indicator mr-4 h-px w-8 bg-slate-100 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
                         <span className="nav-text text-xs font-bold uppercase tracking-widest text-white-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">About</span>
                       </Link>
-                      <Link className="group flex items-center py-3" href="#experience">
+                      <Link className="group flex items-center py-3" href="#experience" scroll={false}>
                         <span className="nav-indicator mr-4 h-px w-8 bg-slate-100 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
                         <span className="nav-text text-xs font-bold uppercase tracking-widest text-white-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Experience</span>
                       </Link>
-                      <Link className="group flex items-center py-3" href="#projects">
+                      <Link className="group flex items-center py-3" href="#projects" scroll={false}>
                         <span className="nav-indicator mr-4 h-px w-8 bg-slate-100 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
                         <span className="nav-text text-xs font-bold uppercase tracking-widest text-white-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Projects</span>
                       </Link>
-                      <Link className="group flex items-center py-3" href="#education">
+                      <Link className="group flex items-center py-3" href="#education" scroll={false}>
                         <span className="nav-indicator mr-4 h-px w-8 bg-slate-100 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
                         <span className="nav-text text-xs font-bold uppercase tracking-widest text-white-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Education</span>
                       </Link>
