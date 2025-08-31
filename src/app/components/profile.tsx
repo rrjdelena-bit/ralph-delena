@@ -13,7 +13,7 @@ export default function Profile() {
 Backend PHP Developer | Front End Developer
                   </h2>
                   <p className="mt-4 max-w-xs leading-normal">
-                  I build elegant, functional, and user-focused digital platforms for the web.
+                  I build elegant, user-focused and <br></br>functional digital platforms for the web.
                   </p>
 
                   <nav className="nav hidden lg:block" aria-label="In-page jump links">
