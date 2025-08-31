@@ -23,9 +23,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+  
     <html lang="en">
+      <head>
+        <link rel="preconnect" href="https://rsms.me/" />
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+      </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900`}
       >
         {children}
       </body>
